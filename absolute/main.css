@@ -1,0 +1,16 @@
+.wrapper{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid grey;
+  background-color: #ccc;
+}
+.two{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border: 1px solid black;
+  top: 10px;
+  left: 10px;
+  text-align: center;
+}
