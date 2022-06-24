@@ -1,0 +1,37 @@
+.wrapper{
+  width: 300px;
+  height: 600px;
+  position: relative;
+  overflow: hidden;
+}
+.image-1{
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  opacity: 0;
+  transition: all 2s;
+}
+.image-1.show{
+  opacity: 1;
+}
+ .image-2{
+  position: absolute;
+  z-index: 9;
+  top: 74px;
+  opacity: 0;
+  transition: all 2s;
+}
+.image-2.show{
+  opacity: 1;
+}
+
+.wrapper .text-1{
+  position: absolute;
+  z-index: 10;
+ left: -190px;
+ top: 390px;
+  transition: all 2s;
+}
+.wrapper .text-1.show{
+  left: 50px;
+}
