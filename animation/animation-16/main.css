@@ -1,0 +1,48 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  position: relative;
+  width: 140px;
+  height: 214px;
+  border: solid 1px #ccc;
+  overflow: hidden;
+  margin: 0 auto;
+
+}
+#images{
+  position: relative;
+ 
+  width: 840px;
+  height: 214px;
+  animation-name: alien;
+  animation-timing-function: steps(24);
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  transform: translateX(0px);
+}
+@keyframes alien{
+  100%{transform: translateX(-3360px);}
+}
+#img-1{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+#img-2{
+  position: absolute;
+  top: -218px;
+  left: 840px;
+}
+#img-3{
+  position: absolute;
+  top: -430px;
+  left: 1680px;
+}
+#img-4{
+  position: absolute;
+  top: -645px;
+  left: 2520px;
+}
