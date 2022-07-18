@@ -1,0 +1,22 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  width: 81px;
+  height: 134px;
+  margin: 0 auto;
+  animation: run 0.8s infinite steps(6);
+  overflow: hidden;
+  background-image: url("CSS-Sprites.png");
+  background-repeat: no-repeat;
+  border: 1px solid #ccc;
+  background-position: 0 0;
+}
+
+@keyframes run {
+  100%{
+    background-position: -465px 0;
+  }
+}
